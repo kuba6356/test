@@ -28,7 +28,7 @@ async function renderChapter(mangaName, mangaChapter){
         let errorJPG = false
         let errorWEBP = false
         try{
-            const response = await fetch(`/mangi/${mangaName}${mangaChapter}${x}.jpg`);
+            const response = await fetch(`mangi/${mangaName}${mangaChapter}${x}.jpg`);
             const data = await response;
             let img = document.createElement("img")
             img.setAttribute("src", `${data.url}`)
@@ -38,7 +38,7 @@ async function renderChapter(mangaName, mangaChapter){
         catch(err){
         }
         try{
-            const response = await fetch(`/mangi/${mangaName}${mangaChapter}${x}.webp`);
+            const response = await fetch(`mangi/${mangaName}${mangaChapter}${x}.webp`);
             const data = await response;
             let img = document.createElement("img")
             img.setAttribute("src", `${data.url}`) 
@@ -48,7 +48,7 @@ async function renderChapter(mangaName, mangaChapter){
         catch(err){
         }
         try{
-            const response = await fetch(`/mangi/${mangaName}${mangaChapter}${x}.png`);
+            const response = await fetch(`mangi/${mangaName}${mangaChapter}${x}.png`);
             const data = await response;
             let img = document.createElement("img")
             img.setAttribute("src", `${data.url}`) 
