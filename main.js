@@ -1,5 +1,3 @@
-export {renderChapter}
-
 const mangi = []
 const ToHellWithBeingASaintImADoctor = {
     name: "To Hell With Being A Saint, I’m A Doctor/",
