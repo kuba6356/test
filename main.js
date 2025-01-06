@@ -1,7 +1,7 @@
 const mangi = []
 const ToHellWithBeingASaintImADoctor = {
     name: "To Hell With Being A Saint, I’m A Doctor/",
-    start: 58,
+    start: 110,
     end: 114
 }
 mangi.push(ToHellWithBeingASaintImADoctor)
@@ -11,9 +11,9 @@ const manga2 ={
     end: 55
 }
 const manga3 = {
-    name: "Miracle Physical Therapist/",
+    name: "A retourner's magic should be special/",
     start: 1,
-    end: 52
+    end: 176
 }
 let longestPage = 130
 mangi.push(manga2)
